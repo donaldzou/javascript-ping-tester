@@ -48,8 +48,6 @@ var options = {
       easing: 'in-out'
     }
   },
-  width: 600,
-  height: 400
 };
 function init(){
   data = new google.visualization.DataTable();
