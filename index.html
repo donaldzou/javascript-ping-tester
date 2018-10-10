@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- <script type="text/javascript" src=""></script> -->
+<div class="container" style="padding-top:100px">
+    <h1 id="ping_num">Ping: 0</h1>
+    <h4 id="high_num">Highest: 0</h4>
+    <h4 id="low_num">Lowest: 0</h4>
+    <div id="linechart_material"></div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Address</span>
+            <input type="text" class="form-control" id="address" value="https://google.com/favicon.ico" />
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <div class="btn-group" role="group">
+              <button class="btn btn-info" id="test">Test</button>
+              <button class="btn btn-success" id="start">Start</button>
+              <button class="btn btn-danger" id="stop" disabled="true">Stop</button>
+              <button class="btn btn-info" id="reset">Reset</button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <div class="btn-group" role="group">
+              <button class="btn btn-default setaddress" address="https://www.google.com/favicon.ico">google.com</button>
+              <button class="btn btn-default setaddress" address="https://facebook.com/favicon.ico">facebook.com</button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">Time (ms)</span>
+            <input type="number" class="form-control" id="time" min="1000" value="10000"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      http://stackoverflow.com/questions/4282151/is-it-possible-to-ping-a-server-from-javascript
+    </div>
+  </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="jsapi.js"></script>
+    <script src="main.js"></script>
+    <script>
+        
+    </script>
+    
+    
+</html>
